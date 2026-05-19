@@ -524,7 +524,237 @@ answer:"Reduce voltage drop",
 explanation:"Synchronous condenser improves voltage profile."
 },
 
-// ================= STABILITY =================
+//
+// ================= STABILITY MCQ =================
+//
+
+{
+subject:"stability",
+question:"If the safety of the system becomes low, the system enters:",
+options:[
+"Normal operation",
+"Warning state",
+"Emergency state",
+"Crash state"
+],
+answer:"Warning state"
+},
+
+{
+subject:"stability",
+question:"The system supplies balanced and qualified electric energy in:",
+options:[
+"Normal operation",
+"Warning state",
+"Emergency state",
+"Crash state"
+],
+answer:"Normal operation"
+},
+
+{
+subject:"stability",
+question:"Rotor angle stability refers to:",
+options:[
+"Maintaining synchronism after disturbances",
+"Reducing voltage",
+"Reducing current",
+"Frequency collapse"
+],
+answer:"Maintaining synchronism after disturbances"
+},
+
+{
+subject:"stability",
+question:"The rotor angle corresponding to maximum transmission power is:",
+options:[
+"0",
+"30",
+"90",
+"180"
+],
+answer:"90"
+},
+
+{
+subject:"stability",
+question:"The transmission of active power mainly depends on:",
+options:[
+"Amplitude voltage",
+"Rotor angle",
+"Both",
+"None"
+],
+answer:"Rotor angle"
+},
+
+{
+subject:"stability",
+question:"The transmission of reactive power mainly depends on:",
+options:[
+"Amplitude voltage",
+"Rotor angle",
+"Both",
+"None"
+],
+answer:"Amplitude voltage"
+},
+
+{
+subject:"stability",
+question:"The PV curve is commonly called:",
+options:[
+"PQ Curve",
+"Nose Curve",
+"IV Curve",
+"PI Curve"
+],
+answer:"Nose Curve"
+},
+
+{
+subject:"stability",
+question:"Fast reactive power injection near load can be achieved by:",
+options:[
+"Shunt capacitors",
+"TCSC",
+"SVC",
+"All of these"
+],
+answer:"All of these"
+},
+
+{
+subject:"stability",
+question:"The current that may reach 20 times the normal value is:",
+options:[
+"High current",
+"Fault current",
+"Inrush current",
+"All of these"
+],
+answer:"Inrush current"
+},
+
+{
+subject:"stability",
+question:"For unstable operating point, increasing rotor angle will:",
+options:[
+"Increase electromagnetic power",
+"Decrease electromagnetic power",
+"Not change",
+"Increase voltage"
+],
+answer:"Decrease electromagnetic power"
+},
+
+{
+subject:"stability",
+question:"To minimize transmission line losses, reactive power should be:",
+options:[
+"Minimized",
+"Maximized",
+"Not changed",
+"Increased"
+],
+answer:"Minimized"
+},
+
+{
+subject:"stability",
+question:"Reactive power support from shunt capacitors is:",
+options:[
+"Linearly proportional to voltage",
+"Proportional to voltage squared",
+"Inversely proportional",
+"Inversely proportional to voltage squared"
+],
+answer:"Proportional to voltage squared"
+},
+
+{
+subject:"stability",
+question:"Once generator excitation reaches maximum limit, reactive power will:",
+options:[
+"Increase",
+"Reduce",
+"Remain unchanged",
+"Become infinite"
+],
+answer:"Reduce"
+},
+
+{
+subject:"stability",
+question:"Transient stability refers to:",
+options:[
+"Small disturbances",
+"Large disturbances",
+"Voltage regulation",
+"Frequency measurement"
+],
+answer:"Large disturbances"
+},
+
+{
+subject:"stability",
+question:"Equal area criterion is used for:",
+options:[
+"Voltage stability",
+"Frequency stability",
+"Transient stability",
+"Load flow"
+],
+answer:"Transient stability"
+},
+
+{
+subject:"stability",
+question:"Swing equation is used in:",
+options:[
+"Transformer design",
+"Voltage regulation",
+"Power system stability",
+"Distribution systems"
+],
+answer:"Power system stability"
+},
+
+{
+subject:"stability",
+question:"Maximum active power transfer occurs when:",
+options:[
+"Rs = RL",
+"Xs = XL",
+"Xs = -XL",
+"Rs = -RL"
+],
+answer:"Rs = RL"
+},
+
+{
+subject:"stability",
+question:"Maximum reactive power transfer occurs when:",
+options:[
+"Rs = RL",
+"Xs = XL",
+"Xs = -XL",
+"Rs = -RL"
+],
+answer:"Xs = XL"
+},
+
+{
+subject:"stability",
+question:"At maximum load power, load voltage equals:",
+options:[
+"E/2",
+"E²/2",
+"E²/4",
+"E/4"
+],
+answer:"E/2"
+},
 
 {
 subject:"stability",
@@ -535,125 +765,111 @@ options:[
 "Ability to increase resistance",
 "Ability to stop generators"
 ],
-answer:"Ability to maintain synchronism",
-explanation:"Power system stability means maintaining synchronism after disturbances."
+answer:"Ability to maintain synchronism"
+},
+
+//
+// ================= STABILITY TRUE / FALSE =================
+//
+
+{
+subject:"stability",
+question:"Under the normal operation mode, the fault of any element in the system should not cause asynchronous operation of the main system.",
+options:[
+"True",
+"False"
+],
+answer:"False"
 },
 
 {
 subject:"stability",
-question:"Steady state stability refers to:",
+question:"The single fault of any element in a lower level power grid should not affect upper level grid stability.",
 options:[
-"Small gradual disturbances",
-"Large sudden disturbances",
-"Transformer failures",
-"Short circuits only"
+"True",
+"False"
 ],
-answer:"Small gradual disturbances",
-explanation:"Steady state stability studies small and gradual changes."
+answer:"True"
 },
 
 {
 subject:"stability",
-question:"Transient stability refers to:",
+question:"In normal or warning state, larger disturbances may directly lead to crash state.",
 options:[
-"Voltage variation",
-"Small disturbances",
-"Large sudden disturbances",
-"Normal operation"
+"True",
+"False"
 ],
-answer:"Large sudden disturbances",
-explanation:"Transient stability studies sudden major disturbances."
+answer:"False"
 },
 
 {
 subject:"stability",
-question:"Dynamic stability is concerned with:",
+question:"When the system is in recovery state, it operates in unsafe running state.",
 options:[
-"Long term oscillations",
-"Only voltage",
-"Resistance changes",
-"Transformer ratios"
+"True",
+"False"
 ],
-answer:"Long term oscillations",
-explanation:"Dynamic stability studies oscillations over time."
+answer:"True"
 },
 
 {
 subject:"stability",
-question:"The maximum power transfer equation depends mainly on:",
+question:"Insufficient damped torque may lead to oscillatory instability.",
 options:[
-"Resistance",
-"Rotor angle",
-"Frequency only",
-"Capacitance only"
+"True",
+"False"
 ],
-answer:"Rotor angle",
-explanation:"Power transfer mainly depends on rotor angle."
+answer:"True"
 },
 
 {
 subject:"stability",
-question:"Maximum power transfer occurs when rotor angle equals:",
+question:"Insufficient synchronous torque may lead to non periodic instability.",
 options:[
-"0°",
-"45°",
-"90°",
-"180°"
+"True",
+"False"
 ],
-answer:"90°",
-explanation:"Maximum transmitted power occurs at δ = 90°."
+answer:"True"
 },
 
 {
 subject:"stability",
-question:"Swing equation is used in:",
+question:"Small disturbance rotor angle stability refers to serious failures.",
 options:[
-"Voltage regulation",
-"Power system stability",
-"Transformer design",
-"Distribution systems"
+"True",
+"False"
 ],
-answer:"Power system stability",
-explanation:"Swing equation is fundamental in stability studies."
+answer:"False"
 },
 
 {
 subject:"stability",
-question:"Equal area criterion is used to analyze:",
+question:"Short-term voltage stability is also called transient voltage stability.",
 options:[
-"Voltage stability",
-"Frequency control",
-"Transient stability",
-"Reactive power"
+"True",
+"False"
 ],
-answer:"Transient stability",
-explanation:"Equal area criterion is used for transient stability analysis."
+answer:"True"
 },
 
 {
 subject:"stability",
-question:"Increasing transmission reactance causes:",
+question:"Voltage instability is more complex than voltage collapse.",
 options:[
-"Increase in stability limit",
-"Decrease in power transfer",
-"Increase in voltage",
-"No effect"
+"True",
+"False"
 ],
-answer:"Decrease in power transfer",
-explanation:"Higher reactance reduces transmitted power."
+answer:"True"
 },
 
 {
 subject:"stability",
-question:"Reducing transmission reactance causes:",
+question:"Increased use of shunt capacitor banks may cause voltage instability.",
 options:[
-"Decrease in stability",
-"Increase in power transfer",
-"Decrease in voltage",
-"No change"
+"True",
+"False"
 ],
-answer:"Increase in power transfer",
-explanation:"Reducing reactance increases transmitted power capability."
+answer:"True"
 }
 
 ];
